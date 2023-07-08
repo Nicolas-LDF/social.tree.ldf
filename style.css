@@ -1,0 +1,85 @@
+/* Geral */
+
+:root {
+  --body-bg-color: #0f172a;
+  --purple: #BB99DD;
+}
+
+body{
+  background-color: var(--body-bg-color);
+  font-family: Poppins, Arial, sans-serif;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+img{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: var(--purple);
+  cursor: pointer;
+}
+
+
+ul{
+  list-style: none;
+}
+
+
+/* Conteudo */
+
+.bg{
+  width: 400px;
+  margin: 0px auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+#foto{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border:2px solid var(--purple);
+  margin: 0px auto;
+}
+
+.intro{
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.intro h1{
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--purple);
+}
+
+.links{
+  display: grid;
+  gap: 16px;
+}
+
+.link{
+  display: block;
+  text-align: center;
+  padding: 12px;
+  background-color: var(--body-bg-color);
+  color: var(--purple);
+  border: 2px solid var(--purple);
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.icons{
+  display: flex;
+  margin-top: 64px;
+  gap: 20px;
+  justify-content: space-evenly;
+}
